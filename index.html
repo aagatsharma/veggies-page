@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vegeterian Project</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#">VEGGIES</a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#home">Home</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav menu-nav"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav close-nav"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section id="home" class="section-home">
+        <div class="home">
+          <div class="home-img-box">
+            <img class="home-img" src="img/home.png" alt="Food" />
+          </div>
+          <div class="home-text-box">
+            <h1 class="primary-heading">
+              A Vegeterian meal at your door, every single day
+            </h1>
+            <p class="home-description">
+              We provide quality Vegeterian food which is 100% organic, fresh
+              and nutritional. Food are delivered 365 days to make you eat
+              healthy.
+            </p>
+            <a href="#cta" class="btn btn-eat margin-right-sm">Start Eating</a>
+            <a href="#pricing" class="btn btn-pricing">Pricing ↓</a>
+          </div>
+        </div>
+      </section>
+      <section id="meals" class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="secondary-heading">Veggies has over 100+ recipes</h2>
+        </div>
+        <div class="container grid grid-3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              class="meal-img"
+              src="img/meals/bread-salad.webp"
+              alt="Bread-Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Vegeterian </span>
+                <span class="tag tag-paleo">Paleo </span>
+              </div>
+              <p class="meal-title">Bread Salad</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>490 </strong>calories</span>
+                </li>
+
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span>
+
+                  <strong>4.9 </strong>rating (541)</li>
+                  </span>
+              </ul>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              class="meal-img"
+              src="img/meals/veg-pizza.webp"
+              alt="Veg Pizza"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Vegan</span>
+              </div>
+              <p class="meal-title">Veg Pizza</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>330 </strong>calories</span>
+                </li>
+
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore <strong>69</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span>
+
+                  <strong>4.8 </strong>rating (420)</li>
+                  </span>
+              </ul>
+            </div>
+          </div>
+          <div class="diets">
+            <h3 class="tertiary-heading">Food Features: </h3>
+            <ul class="list">
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Vegeterian</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Organic</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Vegan</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Healthy</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Fresh</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Nutritional</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Paleo</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Gluten-Free</span></li>
+              <li class="list-item"><ion-icon class="list-icon" name="checkmark-outline"></ion-icon><span>Low-cost</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container more-recipes">
+          <a href="#" class="link">More recipes (Coming Soon) →</a>
+        </div>
+      </section>
+      <section class="section-gallery" id="gallery">
+        
+        <div id="gallery"class="gallery-container">
+          <span class="subheading">Gallery</span>
+          <h2 class="secondary-heading">See what our customers think: </h2>
+
+          <div class="feedback">
+            <figure class="feedback-user">
+              <img
+                class="feedback-user-img"
+                src="img/customers/virat-kohli.webp"
+                alt=""
+              />
+              <blockquote class="feedback-user-text">
+                Thanks to Veggies for making absolute delicious meals, I really enjoyed it and i also recommend others to try it.
+              </blockquote>
+              <p class="feedback-user-name">&mdash; Virat Kohli</p>
+            </figure>
+            <figure class="feedback-user">
+              <img class="feedback-user-img" src="img/customers/ronaldo.jpg" alt="" />
+              <blockquote class="feedback-user-text">
+                The secret behind my success is Veggies Meal. Thanks to their meal, i have been healthy and maintaning my fitness.
+              </blockquote>
+              <p class="feedback-user-name">&mdash; Cristiano Ronaldo</p>
+            </figure>
+            <figure class="feedback-user">
+              <img
+                class="feedback-user-img"
+                src="img/customers/messsi.jpeg"
+                alt=""
+              />
+              <blockquote class="feedback-user-text">
+                Veggies is a life saver! I train 24 hours, so there's
+                no time for cooking. I couldn't live without Veggies meals now!
+              </blockquote>
+              <p class="feedback-user-name">&mdash; Lionel Messi</p>
+            </figure>
+            
+            <figure class="feedback-user">
+              <img
+                class="feedback-user-img"
+                src="img/customers/cena.jpeg"
+                alt=""
+              />
+              <blockquote class="feedback-user-text">
+                I am John Cena and you can't see me, but you can see how good and healthy the Veggies meal provides with fast delivery.
+              </blockquote>
+              <p class="feedback-user-name">&mdash; John Cena</p>
+            </figure>
+            <figure class="feedback-user">
+              <img
+                class="feedback-user-img"
+                src="img/customers/sins.jpeg"
+                alt=""
+              />
+              <blockquote class="feedback-user-text">
+                After tasting Veggies for 69 times, I have been mentally and physically fit to be doctor, engineer, plumber and so on.
+              </blockquote>
+              <p class="feedback-user-name">&mdash; Jhonny Sins</p>
+            </figure>
+            <figure class="feedback-user">
+              <img
+                class="feedback-user-img"
+                src="img/customers/luffy.jpeg"
+                alt=""
+              />
+              <blockquote class="feedback-user-text">
+                I thought only meat made me strong but after i tried Veggies meal i have been unstopable and it helped me to be Pirate King.
+              </blockquote>
+              <p class="feedback-user-name">&mdash; Monkey D. Luffy</p>
+            </figure>
+          </div>
+          
+        </div>
+        <div class="photos">
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-1.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-2.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-3.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-4.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-5.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-6.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-7.jpg" />
+          </figure>
+          <figure class="photos-item">
+            <img src="img/gallery/gallery-8.jpg" />
+          </figure>
+          <figure class="photos-item photos-last">
+            <img src="img/gallery/gallery-9.jpg" />
+          </figure>
+          <figure class="photos-item photos-last">
+            <img src="img/gallery/gallery-10.jpg" />
+          </figure>
+          <figure class="photos-item photos-last">
+            <img src="img/gallery/gallery-11.jpg" />
+          </figure>
+          <figure class="photos-item photos-last">
+            <img src="img/gallery/gallery-12.jpg" />
+          </figure>
+        </div>
+      </section>
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="secondary-heading">Eat without worrying: </h2>
+        </div>
+        <div class="container grid grid-2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan-starter">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price">
+                <span>Rs.</span>
+                3999
+              </p>
+              <p class="plan-text">per month. That's just just Rs.135 per meal</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>1 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Order from 11am to 9pm</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Delivery is Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-signup">
+              <a href="#" class="btn btn-eat">Start eating well</a>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan-complete">
+            <header class="plan-header">
+              <p class="plan-name">Complete</p>
+              <p class="plan-price">
+                <span>Rs.</span>
+                6969
+              </p>
+              <p class="plan-text">per month. That's just just Rs.116 per meal</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span> <strong>2 meals</strong> per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Order <strong>24/7</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Delivery is Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Get access to latest recipes</span>
+              </li>
+            </ul>
+            <div class="plan-signup">
+              <a href="#" class="btn btn-eat">Start eating well</a>
+            </div>
+          </div>
+        </div>
+        <div class="container grid">
+          <aside class="plan-details">
+            Price includes all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+        <div class="container grid grid-4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+
+            <p class="feature-title">Never cook again!</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="secondary-heading">Get yor first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause at anytime. And the
+                first meal is on us!
+              </p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Virat Kohli"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Emai address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose an option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">Youtube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="facebook">Facebook Ads</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn-form">Sign Up Now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman Enjoying Food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container grid grid-footer">
+        <div class="logo-col">
+          <a class="logo footer-logo" href="#">VEGGIES</a>
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; 2021 By Aagat Sharma. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">
+              XXXXXXX, XXXXXXX, XXXXXX, XXXXX
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">+977 981242141</a>
+              <br />
+              <a class="footer-link" href="maito:aagats72@gmail.com"
+                >aagats72@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Create Account</a></li>
+            <li><a href="#" class="footer-link">Sign In</a></li>
+            <li><a href="#" class="footer-link">Ios app</a></li>
+            <li><a href="#" class="footer-link">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About Veggies</a></li>
+            <li><a href="#" class="footer-link">For Business</a></li>
+            <li><a href="#" class="footer-link">Cooking partners</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Recipe directory</a></li>
+            <li><a href="#" class="footer-link">Help center</a></li>
+            <li><a href="#" class="footer-link">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="script.js"></script>
+</html>
